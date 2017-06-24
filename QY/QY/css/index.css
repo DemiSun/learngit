@@ -1,0 +1,254 @@
+body{
+    	font-size: 12px;
+    	font-family:arial,"微软雅黑";
+    }
+  ul,li{
+  	padding:0;
+  	margin: 0;
+  }  	
+  li{
+    	list-style: none;
+    	/*float: left;*/
+    }
+  a{
+  	text-decoration: none;
+  }
+ a:active,a:link{
+  	text-decoration: none;
+  }
+   .clearfix:after{
+   	content: '';
+   	height: 0;
+   	overflow: hidden;
+   	display: block;
+   	clear: both;
+   }
+   .clearfix{
+   	zoom:1;
+   }
+.sprit_wrap{
+	height: 42px;
+	width: 100%;
+	background-color: #c6c4c4;
+}
+.sprit_text{
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	padding-left: 30px;
+	float: left;
+}
+.callUs{
+	height: 42px;
+	padding-top: 10px;
+	float: right;
+	margin-right: 20px;
+}
+.callUs li{
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	padding: 0px 5px;
+	border-right: 1px solid #E2DCDC;
+}
+.callUs li:last-child{
+	border-right: none;
+}
+    .header_wrap{
+    		position: relative;
+    		height: 120px;
+    	}
+    	.logo{   		
+    		float: left;
+    		text-indent: 110px;
+    		background: url(../img/logo.png) no-repeat 32px 12px;
+    		height: 120px;
+    		line-height: 120px;
+    		font-size: 28px;
+    		font-family: "microsoft yahei";
+    	}
+    
+    	.header_wrap ul{
+    		height: 16px;
+    		list-style: none;
+    		position: absolute;
+    		right: 5px;
+    		top: 8px;
+    	}
+    	.header_wrap ul li{
+    		display: inline-block;
+    		border-right: 1px solid #ffffff;
+    		height: 16px;
+    		line-height: 16px;
+    		padding: 0px 5px;  
+    		color: #ffffff;  		
+    	}
+    	.header_wrap ul li:last-child{
+    		border-right: none;
+    	}
+.navbar_wrap{
+	height: 50px;
+	width: 100%;
+	background-color: #123a7a;
+}
+.navBar{
+	height: 50px;
+	width: 1196px;
+	margin: 0 auto;
+}
+.navBar li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 0px 28px;
+	cursor: pointer;
+}
+.navBar li:hover{
+	background: #254b94;
+}
+.navBar li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.navBar li a:hover{
+	color: #F87D11;
+}
+.serviceSystem{
+	padding: 10px;
+	width: 100%;
+}
+.text1{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #2784cd;
+}
+
+.text2{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #f87d11;
+}
+.serviceSysMain{
+	width: 1192px;
+	margin: 0 auto;
+}
+.webMake{
+	width: 284px;
+	height: 352px;
+	float: left;
+	margin-right: 13px;
+}
+.webMake:last-child{
+	margin-right: none;
+}
+.imgWrap{
+	width: 100%;
+}
+.imgWrap img{
+	width: 100%;
+}
+.head2Text{
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #595959;
+	font-size: 14px;
+	margin-top: 8px;
+}
+.ul_list{
+	width: 100%;
+	height: 72px;
+}
+.ul_list li{
+	width: 142px;
+	float: left;
+	text-align: center;
+	color: #595959;
+}
+.textWrap{
+	height: 38px;
+	line-height: 38px;
+	background: #2784cd;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+}
+.operationText{
+	background-color: #f87d11;
+}
+.eCommerce{
+	background-color: #db0528;
+}
+.otherTech {
+	background-color: #3a54f5;
+}
+.serviceAdv{
+	width: 100%;
+	height: 500px;
+	background: url(../img/serviceBg1.png) no-repeat 0px 0px;
+	background-size:cover;
+	margin-bottom: 20px;
+}
+.serviceAdv .text_wrap{
+	padding-top: 60px;
+}
+.serviceAdvMain{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.advItem{
+	width: 280px;
+	float: left;
+	margin-right: 12px;
+	background-color: #FFFFFF; 
+}
+.advItem p{
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 0;
+	color: #2b2b2b;
+}
+.description{
+	padding: 6px 24px;
+	height: 98px;
+}
+.processMain{
+	width: 820px;
+	background: url(../img/processImg.png) no-repeat center center;
+	background-size: contain;
+	height: 600px;
+	margin: 0 auto;
+}
+.processDescrip{
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color: #333333;
+}
+.problemMain{
+	width: 1192px;
+	margin: 0 auto;
+}
+.problemMain dl dt{
+	font-size: 14px;
+	color: #4d4d4d;
+	line-height: 36px;
+	
+	font-family: arial,serif;
+}
+.problemMain dl dd{
+	font-size: 14px;
+	color: #4d4d4d;
+	height: 36px;
+	
+	margin-bottom: 20px;
+}
